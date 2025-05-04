@@ -8,7 +8,6 @@ class Solution:
         if num[0]=="-":
             new+=num[0]
             start=1
-        print(x>=2**31)
         for i in range(length-1,start-1,-1):
             new+=str(int(num[i])%10)
         y=int(new)
