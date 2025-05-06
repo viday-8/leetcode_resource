@@ -8,10 +8,7 @@ class Solution:
                 return -1
             elif nums[pivot] == target:
                return pivot
-            # elif pivot == 0 or pivot == len(nums)-1  :
-            #     return -1
             elif moveForward:
                 pivot +=1
             else :
                 pivot -=1
-        return -1        
