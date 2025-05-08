@@ -5,7 +5,6 @@ class Solution:
         start = 0
         end = len(nums)-1
         while start <= end:
-            print(start, end)
             if nums[start] == target and nums[end] == target:
                 return [start,end]
             elif nums[start] < target:
