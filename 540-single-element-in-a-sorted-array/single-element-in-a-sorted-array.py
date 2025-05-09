@@ -5,7 +5,6 @@ class Solution:
         if end==0:
             return nums[end]
         while start <= end:
-            print(start, end)
             if nums[start] == nums[start+1]:
                 start += 2
             else:
