@@ -3,7 +3,7 @@ class Solution:
         start = 0
         end = len(height)-1
         area = 0
-        while start <= end:
+        while start < end:
             l = end - start
             if height[start] < height[end]:
                 a = l* height[start]
