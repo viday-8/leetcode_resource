@@ -5,7 +5,6 @@ class Solution:
         area = 0
         while start <= end:
             l = end - start
-            print(start, end, l,area)
             if height[start] < height[end]:
                 a = l* height[start]
                 area = max(area, a)
